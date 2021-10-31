@@ -1,0 +1,16 @@
+package selfprogramming;
+
+public class MathClass{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a = 3;
+		int b = 9;
+		int c = 2;
+		
+		double sqrt = ((-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a));
+		System.out.print(sqrt);
+
+	}
+
+}
