@@ -1,0 +1,28 @@
+package myScanner;
+import java.util.Scanner;
+public class Arithmetic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter an integer : ");
+		int integer = sc.nextInt();
+		
+		System.out.println("Integer is : " + integer);
+		
+		System.out.println("Enter double value : ");
+		double value = sc.nextDouble();
+		
+		System.out.println("The double value is " + value);
+		
+		double average = (integer+value)/2;
+		System.out.printf("The average is " + "%.2f" , average);
+		
+		System.out.println();
+		
+		System.out.println(integer>value);
+		System.out.println(integer==value);
+	}
+
+}
