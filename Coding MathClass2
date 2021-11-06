@@ -35,7 +35,7 @@ public class MathClass2 {
 		System.out.println("The formula of power is : " + ascii4);
 		System.out.println("The minimum number is : " + ascii5);
 		System.out.println("The maximum number is : " + ascii6);
-		System.out.print("The is : ");
+		System.out.print("The round number is : ");
 		System.out.printf("%.2f" , ascii7);
 		
 	}
